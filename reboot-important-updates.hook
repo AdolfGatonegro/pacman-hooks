@@ -8,6 +8,6 @@ Target = systemd*
 Target = nvidia*
 
 [Action]
-Description = #### Important system packages have changed. ####
+Description = ### Important system packages have changed. ###
 When = PostTransaction
 Exec = /usr/bin/true
