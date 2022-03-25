@@ -5,6 +5,6 @@ Type = Package
 Target = *
 
 [Action]
-Description = Cleaning up package cache.
+Description = Cleaning package cache...
 When = PostTransaction
 Exec = /bin/sh -c "/usr/bin/paccache -rvk3; /usr/bin/paccache -rvuk0"
