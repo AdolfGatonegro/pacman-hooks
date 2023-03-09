@@ -1,0 +1,9 @@
+[Trigger]
+Operation = Upgrade
+Type = Package
+Target = *
+
+[Action]
+Description = Refreshing update script in dwmblocks...
+When = PostTransaction
+Exec = /usr/bin/pkill -RTMIN+12 dwmblocks
